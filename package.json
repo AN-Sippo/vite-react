@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vite",
+    "dev": "node server",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -10,7 +10,9 @@
     "vite": "^6.1.0"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+  "type": "module"
 }
